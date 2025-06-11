@@ -50,9 +50,9 @@ This project is a simple yet complete implementation of the **classic Snake game
 
 ## 🧱 How to Compile and Run (Windows – MinGW-w64 + FreeGLUT)
 
-### ✅ Compilation Command
+:: Compile the game (on Windows using MinGW and FreeGLUT)
+g++ snake.cpp -o snake -I"C:\mingw64\include" -L"C:\mingw64\lib" -lfreeglut -lopengl32 -lglu32
 
-```bash
-1. g++ snake.cpp -o snake -I"C:\mingw64\include" -L"C:\mingw64\lib" -lfreeglut -lopengl32 -lglu32
-2. ./snake
+:: Run the game (make sure freeglut.dll is in the same folder or in your PATH)
+.\snake.exe  
 
