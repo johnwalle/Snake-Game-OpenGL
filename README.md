@@ -54,3 +54,5 @@ This project is a simple yet complete implementation of the **classic Snake game
 
 ```bash
 g++ snake.cpp -o snake -I"C:\mingw64\include" -L"C:\mingw64\lib" -lfreeglut -lopengl32 -lglu32
+./snake
+
